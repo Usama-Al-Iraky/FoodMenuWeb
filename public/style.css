@@ -1,0 +1,57 @@
+.body {
+    background-color: #eceaea;
+min-height: 110vh;
+}
+.font {
+    font-family: "Exo 2", sans-serif;
+}
+.logo {
+    letter-spacing:5px;
+    font-weight: bold;
+}
+.logo::first-letter {
+    color: #dc384880;
+}
+.search-input:focus {
+ outline: none;
+}
+.search-input::placeholder{
+    color: #dc384880;
+}
+.header-title {
+    color: #dc384880;
+    border-bottom: 2px #dc3849 solid;
+    width: 150px;
+}
+.category-btn{
+    background-color: white;
+    border: 1px #dc3849 solid;
+    border-radius: 3px;
+    color: #dc384880 ;
+    transition: 0.3s;
+}
+.category-btn:focus {
+    background-color: #dc3849;
+    color:white;
+    transform: scale(1.1);
+}
+.category-btn:hover {
+    background-color: #dc3849;
+    border-radius: 6px;
+    color:white;
+    transform: scale(1.1);
+}
+.card-comp {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid;
+} 
+.card-comp-img{
+    max-width: 250px;
+    border-radius: 10px;
+}
+@media (max-width: 415px){
+    .card-comp-img{
+      max-width: 150px;
+    }
+}
